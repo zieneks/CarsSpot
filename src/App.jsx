@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import ImageSwiper from './ImageSwiper'; 
 import SideBar from './SideBar';
+import ExpandableSection from './ExpandableSection';
 
 
 
@@ -56,7 +57,7 @@ function App() {
 
 
    
-    <section class="grid grid-cols-1 text-white lg:grid-cols-2  bg-gray-700 mt-12 xl:gap-12">
+    {/* <section class="grid grid-cols-1 text-white lg:grid-cols-2  bg-gray-700 mt-12 xl:gap-12">
       <div className=' mt-10 pb-24 xl:ml-72 ' >
 
       <h2 className=' text-2xl font-bold ml-4   '>Id nostrud enim esse consectetur in eu mollit fugiat aute. Velit nulla commodo.</h2>
@@ -72,7 +73,9 @@ function App() {
 
       </div>
       
-    </section> 
+    </section>  */}
+
+    <ExpandableSection></ExpandableSection>
 
 
   
