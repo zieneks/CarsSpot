@@ -18,7 +18,7 @@ function App() {
     
     <img  className=" xl:ml-72  "src='/images/CTA.png'></img>
     <nav class="flex space-x-3 hidden md:flex">
-      <a href="#" class="text-gray-700 text-xl">Galeria zdjec</a>
+      <a href="#" class="text-gray-700 text-xl">Galeria zdjęć</a>
       <a href="#" class="text-gray-700 text-xl">FAQ</a>
       
     </nav>
