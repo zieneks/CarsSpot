@@ -17,7 +17,7 @@ function ExpandableSection() {
   return (
     <section className="grid grid-cols-1 text-white lg:grid-cols-2 bg-gray-700 mt-12 xl:gap-12">
       
-      <div className="mt-10 pb-24 xl:ml-72">
+      <div className="mt-10 pb-24 mr-4 xl:ml-72">
         <h2 className="text-2xl font-bold ml-4">
           Id nostrud enim esse consectetur in eu mollit fugiat aute. Velit nulla commodo.
         </h2>
@@ -40,7 +40,7 @@ function ExpandableSection() {
       </div>
 
       
-      <div className="mt-10 pb-24 xl:mr-72">
+      <div className="mt-10 pb-24 mr-4  xl:mr-72">
         <h2 className="text-2xl font-bold ml-4">
           Id nostrud enim esse consectetur in eu mollit fugiat aute. Velit nulla commodo.
         </h2>

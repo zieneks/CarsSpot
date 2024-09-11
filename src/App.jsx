@@ -50,37 +50,9 @@ function App() {
       <button className='mt-4 mr-4 xl:ml-72'>Samochody osobowe</button>
       <button className='mt-4 xl:ml-4'>Samochody dostawcze</button>
 
-        
     </section>
   <ImageSwiper />
-  
-
-
-   
-    {/* <section class="grid grid-cols-1 text-white lg:grid-cols-2  bg-gray-700 mt-12 xl:gap-12">
-      <div className=' mt-10 pb-24 xl:ml-72 ' >
-
-      <h2 className=' text-2xl font-bold ml-4   '>Id nostrud enim esse consectetur in eu mollit fugiat aute. Velit nulla commodo.</h2>
-      <p className='mt-5 ml-4  '>Mauris varius ipsum mauris, rutrum lobortis magna efficitur a. Donec egestas, nisl vehicula feugiat ornare, diam turpis efficitur mi, ac venenatis eros ipsum ac arcu. Vestibulum et  [...]</p>
-      <button className='ml-4 mt-5 border-b-2 '>Rozwiń</button>
-      </div>
-      
-      <div className='mt-10 pb-24   xl:mr-72'>
-
-      <h2 className=' text-2xl font-bold ml-4 '>Id nostrud enim esse consectetur in eu mollit fugiat aute. Velit nulla commodo.</h2>
-      <p className='mt-5 ml-4  '>Mauris varius ipsum mauris, rutrum lobortis magna efficitur a. Donec egestas, nisl vehicula feugiat ornare, diam turpis efficitur mi, ac venenatis eros ipsum ac arcu. Vestibulum et  [...]</p>
-      <button className='ml-4 mt-5 border-b-2' >Rozwiń</button>
-
-      </div>
-      
-    </section>  */}
-
-    <ExpandableSection></ExpandableSection>
-
-
-  
-
-  
+  <ExpandableSection></ExpandableSection>
   <footer class="col-span-3 justify-between flex items-center justify-center p-4 mt-0.5 bg-gray-700 text-white">
     <p className=' xl:ml-72 '>Cars Spot</p>
     <p className='xl:mr-72'>Polityka prywatności </p>
