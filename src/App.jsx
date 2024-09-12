@@ -13,13 +13,15 @@ function App() {
     <>
       
 
-<div class="overflow-x-hidden">
+<div className="overflow-x-hidden">
   
-  <header class=" flex items-center justify-between p-4  md:flex  ">
+  <header className=" flex items-center justify-between p-4  md:flex  ">
     
-    <img  className=" xl:ml-72  "src='/images/CTA.png'></img>
-    <nav class="flex space-x-3 hidden md:flex">
-      <a href="#" class="text-gray-700 text-xl">Galeria zdjęć</a>
+    <img className='xl:ml-72' src='/images/logo.png' alt='logo'></img>
+    
+    {/* <img  className=" xl:ml-72  "src='/images/CTA.png'></img> */}
+    <nav className="flex  space-x-3 hidden md:flex xl:mr-12" >
+      <a href="#" class="text-gray-700 text-xl" >Galeria zdjęć</a>
       <a href="#" class="text-gray-700 text-xl">FAQ</a>
       
     </nav>
@@ -27,7 +29,7 @@ function App() {
   </header>
   <SideBar/>
 
-  <main class="flex  xl:relative flex-col space-y-4   mt-4  bg-white col-span-2    " >
+  <main className="flex  xl:relative flex-col space-y-4   mt-4  bg-white col-span-2    " >
     <section class="flex-1 bg-white   p-4">
       <h2 className='text-6xl  xl:ml-72 xl:text-7xl xl:mt-14'>SPRZEDAJEMY SAMOCHODY <br/>Z EUROPY</h2>
     <p className='mt-8 md:text-xl xl:ml-72'>Kup komfortowy pojazd, aby każda podróż<br/> była wyjątkowym przeżyciem.</p>
@@ -38,12 +40,12 @@ function App() {
     </section>
     
 
-    <img className='xl:ml-72 object-cover max-w-full xl:absolute xl:w-7/12 xl:right-0 top-56' src='/images/auta.png'></img>
+    <img className='xl:ml-72 object-cover max-w-full xl:absolute xl:w-7/12 xl:right-0 top-56' src='/images/auta.png' alt='cars'></img>
 
   </main>
    
   
-  <section class="flex-1 bg-white p-4 xl:mt-64 ">
+  <section className="flex-1 bg-white p-4 xl:mt-64 ">
       <p className='text-blue-700 text-2xl xl:ml-72'>Prezentacja firmy</p>
       <h2 className='text-3xl  xl:ml-72'>ZOBACZ NASZĄ GALERIĘ ZDJĘĆ</h2>
 
@@ -53,7 +55,7 @@ function App() {
     </section>
   <ImageSwiper />
   <ExpandableSection></ExpandableSection>
-  <footer class="col-span-3 justify-between flex items-center justify-center p-4 mt-0.5 bg-gray-700 text-white">
+  <footer className="col-span-3 justify-between flex items-center justify-center p-4 mt-0.5 bg-gray-700 text-white">
     <p className=' xl:ml-72 '>Cars Spot</p>
     <p className='xl:mr-72'>Polityka prywatności </p>
 

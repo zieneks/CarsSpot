@@ -42,13 +42,13 @@ const ImageSwiper = () => {
       className="mySwiper " 
     >
       <SwiperSlide>
-        <img src="/images/car1.png" alt="Image 1" className=" w-full h-full md:w-11/12  mb-24 object-cover" />
+        <img src="/images/car1.png" alt="car 1" className=" w-full h-full md:w-11/12  mb-24 object-cover" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src="/images/car2.png" alt="Image 2" className=" w-full h-full md:w-11/12  object-cover" />
+        <img src="/images/car2.png" alt="car 2" className=" w-full h-full md:w-11/12  object-cover" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src="/images/car3.png" alt="Image 3" className=" w-full h-full md:w-11/12  object-cover" />
+        <img src="/images/car3.png" alt="car 3" className=" w-full h-full md:w-11/12  object-cover" />
         
       </SwiperSlide>
       
